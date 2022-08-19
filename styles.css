@@ -31,3 +31,25 @@ body{
 #imagen1, #principales, #imagen2, #bebidas{
     border: 2px solid white;
 }
+
+#titulo{
+    border:2px solid white;
+    margin:30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 span{
+    font-size: 70px;
+    font-weight: bolder;
+
+}
+
+
+#entradas{
+    display: flex;
+    flex-direction: column;
+}
+
