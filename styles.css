@@ -27,7 +27,7 @@ body{
 }
 
 
-#titulo, #guarniciones, #postres,
+#titulo,#guarniciones, #postres,
 #imagen1, #principales, #imagen2, #bebidas{
     border: 2px solid white;
 }
@@ -47,14 +47,9 @@ h1{
 h1 span{
     font-size: 70px;
     font-weight: bolder;
-
+    text-align: center;
 }
 
-
-#entradas{
-    display: flex;
-    flex-direction: column;
-}
 
 #entradas{
     display: block;
@@ -75,3 +70,24 @@ h1 span{
     display: block;
     display: inline-block;
 }
+
+
+#Guarniciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#Postre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#carne {
+    margin-left: 150px;
+    width: 400px;
+    
+    }
+    #listabebidas{
+            margin-left: 10px;
+    }
