@@ -35,6 +35,9 @@ body{
 #titulo{
     border:2px solid white;
     margin:30px;
+    margin-bottom: -20px;
+    display: block;
+    display: inline-block;
 }
 
 h1{
@@ -44,32 +47,31 @@ h1{
 h1 span{
     font-size: 70px;
     font-weight: bolder;
-    text-align: center;
+
 }
 
 
 #entradas{
     display: flex;
     flex-direction: column;
-   
 }
 
-#Guarniciones{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-#Postre{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-#carne {
-    margin-left: 150px;
-    width: 400px;
+#entradas{
+    display: block;
+    display: inline-block;
+    margin: 35px;
     
-    }
-    #listabebidas{
-            margin-left: 10px;
-    }
+}
+#entradas h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size:45px;
+}
+
+#precio{
+    float: right;
+}
+.opcion{
+    display: block;
+    display: inline-block;
+}
