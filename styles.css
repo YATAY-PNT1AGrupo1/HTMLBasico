@@ -64,3 +64,12 @@ h1 span{
     flex-direction: column;
     text-align: center;
 }
+
+#carne {
+    margin-left: 150px;
+    width: 400px;
+    
+    }
+    #listabebidas{
+            margin-left: 10px;
+    }
