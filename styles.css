@@ -44,12 +44,23 @@ h1{
 h1 span{
     font-size: 70px;
     font-weight: bolder;
-
+    text-align: center;
 }
 
 
 #entradas{
     display: flex;
     flex-direction: column;
+   
 }
 
+#Guarniciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#Postre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
